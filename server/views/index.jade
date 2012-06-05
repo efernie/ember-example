@@ -1,0 +1,11 @@
+extends layout
+block content
+  h1 hello world
+
+  //- script(type="text/x-handlebars")
+  //-   {{#view FernsWorld.MyView}}
+  //-   h1 Hello world!
+  //-   {{/view}}
+
+block scripts
+  script(data-main="/src/config", src="/assets/js/require.js")

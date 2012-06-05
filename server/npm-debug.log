@@ -1,0 +1,29 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+info using npm@1.1.12
+info using node@v0.6.14
+verbose config file /Users/efernie/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+ERR! Couldn't read dependencies.
+ERR! Error: Invalid name: "Ember Node Tests" may not start with '.' or contain %/@+: or whitespace
+ERR!     at /usr/local/lib/node_modules/npm/lib/utils/read-json.js:305:13
+ERR!     at /usr/local/lib/node_modules/npm/lib/utils/read-json.js:208:32
+ERR!     at P (/usr/local/lib/node_modules/npm/lib/utils/read-json.js:184:40)
+ERR!     at /usr/local/lib/node_modules/npm/lib/utils/read-json.js:150:7
+ERR!     at [object Object].<anonymous> (fs.js:115:5)
+ERR!     at [object Object].emit (events.js:64:17)
+ERR!     at afterRead (fs.js:1117:12)
+ERR!     at Object.wrapper [as oncomplete] (fs.js:254:17)
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 11.4.0
+ERR! command "node" "/usr/local/bin/npm" "install"
+ERR! cwd /Users/efernie/signedondev/ember-node/server
+ERR! node -v v0.6.14
+ERR! npm -v 1.1.12
+ERR! message Invalid name: "Ember Node Tests" may not start with '.' or contain %/@+: or whitespace
+verbose exit [ 1, true ]
