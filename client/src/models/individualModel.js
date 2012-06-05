@@ -1,9 +1,9 @@
 define('models/individual',
        ['ember'],
 
-    function(ember){
+    function(){
 
-      return Ember.Object.extend({
+      return FernsWorld.ContactModel = Ember.Object.extend({
         name : 'fern'
       });
 

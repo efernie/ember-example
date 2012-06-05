@@ -8,12 +8,12 @@ require([
   ],
 
   function(App, $, contacts){
-    console.log(contacts)
 
     // Start controllers
+    contacts.create();
 
     $(function(){
-      console.log('dom ready')
+      console.log('jquery dom ready')
     });
 
   }

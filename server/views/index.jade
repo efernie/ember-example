@@ -1,11 +1,19 @@
 extends layout
 block content
-  h1 hello world
+  header
+    h1 hello world
+    script(type="text/x-handlebars")
+      {{FernsWorld.name}}
+
+  #main
+
+  footer
 
   //- script(type="text/x-handlebars")
-  //-   {{#view FernsWorld.MyView}}
+  //-   {{#view FernsWorld.individual}}
   //-   h1 Hello world!
   //-   {{/view}}
+
 
 block scripts
   script(data-main="/src/config", src="/assets/js/require.js")
