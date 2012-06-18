@@ -13,7 +13,7 @@ define('controllers/contacts',
       init : function(){
         this._super();
         console.log(this);
-        this.get( 'entryView' ).appendTo( '#main' );
+        //this.get( 'entryView' ).appendTo( '#main' );
       }
     });
 
